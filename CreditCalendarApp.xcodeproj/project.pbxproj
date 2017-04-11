@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19BD8AB57EC5C664994CAEE8 /* Pods_CreditCalendarApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CBF2C524D175A41AB3C982 /* Pods_CreditCalendarApp.framework */; };
 		5B81549D1E9CA72C00383D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B81549C1E9CA72C00383D4F /* AppDelegate.swift */; };
 		5B81549F1E9CA72C00383D4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B81549E1E9CA72C00383D4F /* ViewController.swift */; };
 		5B8154A21E9CA72C00383D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8154A01E9CA72C00383D4F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E46D59B3D674E717C1AB892 /* Pods-CreditCalendarApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCalendarApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CreditCalendarApp/Pods-CreditCalendarApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5B8154991E9CA72C00383D4F /* CreditCalendarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCalendarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B81549C1E9CA72C00383D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B81549E1E9CA72C00383D4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		5B8154A31E9CA72C00383D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B8154A61E9CA72C00383D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B8154A81E9CA72C00383D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7953504CDBB21DE7320D3702 /* Pods-CreditCalendarApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCalendarApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CreditCalendarApp/Pods-CreditCalendarApp.release.xcconfig"; sourceTree = "<group>"; };
+		C9CBF2C524D175A41AB3C982 /* Pods_CreditCalendarApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditCalendarApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19BD8AB57EC5C664994CAEE8 /* Pods_CreditCalendarApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				5B81549B1E9CA72C00383D4F /* CreditCalendarApp */,
 				5B81549A1E9CA72C00383D4F /* Products */,
+				793D4E0B399CBB46D6976445 /* Pods */,
+				97862ACA99D5CCE80293F60E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = CreditCalendarApp;
 			sourceTree = "<group>";
 		};
+		793D4E0B399CBB46D6976445 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E46D59B3D674E717C1AB892 /* Pods-CreditCalendarApp.debug.xcconfig */,
+				7953504CDBB21DE7320D3702 /* Pods-CreditCalendarApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97862ACA99D5CCE80293F60E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9CBF2C524D175A41AB3C982 /* Pods_CreditCalendarApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B8154AB1E9CA72C00383D4F /* Build configuration list for PBXNativeTarget "CreditCalendarApp" */;
 			buildPhases = (
+				3468C07B3299797EECB18ADA /* [CP] Check Pods Manifest.lock */,
 				5B8154951E9CA72C00383D4F /* Sources */,
 				5B8154961E9CA72C00383D4F /* Frameworks */,
 				5B8154971E9CA72C00383D4F /* Resources */,
+				24B0C90AA06C73810FFFAF0F /* [CP] Embed Pods Frameworks */,
+				1246E52652C00FE96372E16E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1246E52652C00FE96372E16E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CreditCalendarApp/Pods-CreditCalendarApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24B0C90AA06C73810FFFAF0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CreditCalendarApp/Pods-CreditCalendarApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3468C07B3299797EECB18ADA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B8154951E9CA72C00383D4F /* Sources */ = {
@@ -261,6 +336,7 @@
 		};
 		5B8154AC1E9CA72C00383D4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E46D59B3D674E717C1AB892 /* Pods-CreditCalendarApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X9U9K9DBF5;
@@ -274,6 +350,7 @@
 		};
 		5B8154AD1E9CA72C00383D4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7953504CDBB21DE7320D3702 /* Pods-CreditCalendarApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X9U9K9DBF5;
