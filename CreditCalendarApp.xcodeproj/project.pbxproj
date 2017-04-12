@@ -8,15 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		19BD8AB57EC5C664994CAEE8 /* Pods_CreditCalendarApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CBF2C524D175A41AB3C982 /* Pods_CreditCalendarApp.framework */; };
+		5B4D26D41E9CAA29002CC512 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D26D31E9CAA29002CC512 /* CustomCell.swift */; };
 		5B81549D1E9CA72C00383D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B81549C1E9CA72C00383D4F /* AppDelegate.swift */; };
 		5B81549F1E9CA72C00383D4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B81549E1E9CA72C00383D4F /* ViewController.swift */; };
 		5B8154A21E9CA72C00383D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8154A01E9CA72C00383D4F /* Main.storyboard */; };
 		5B8154A41E9CA72C00383D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8154A31E9CA72C00383D4F /* Assets.xcassets */; };
 		5B8154A71E9CA72C00383D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8154A51E9CA72C00383D4F /* LaunchScreen.storyboard */; };
+		5BAEAA4D1E9DA6090080E4D2 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BAEAA4C1E9DA6090080E4D2 /* 123.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E46D59B3D674E717C1AB892 /* Pods-CreditCalendarApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCalendarApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CreditCalendarApp/Pods-CreditCalendarApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5B4D26D31E9CAA29002CC512 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		5B8154991E9CA72C00383D4F /* CreditCalendarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCalendarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B81549C1E9CA72C00383D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B81549E1E9CA72C00383D4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		5B8154A31E9CA72C00383D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B8154A61E9CA72C00383D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B8154A81E9CA72C00383D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BAEAA4C1E9DA6090080E4D2 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
 		7953504CDBB21DE7320D3702 /* Pods-CreditCalendarApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCalendarApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CreditCalendarApp/Pods-CreditCalendarApp.release.xcconfig"; sourceTree = "<group>"; };
 		C9CBF2C524D175A41AB3C982 /* Pods_CreditCalendarApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditCalendarApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -43,6 +47,7 @@
 		5B8154901E9CA72C00383D4F = {
 			isa = PBXGroup;
 			children = (
+				5BAEAA4C1E9DA6090080E4D2 /* 123.png */,
 				5B81549B1E9CA72C00383D4F /* CreditCalendarApp */,
 				5B81549A1E9CA72C00383D4F /* Products */,
 				793D4E0B399CBB46D6976445 /* Pods */,
@@ -67,6 +72,7 @@
 				5B8154A31E9CA72C00383D4F /* Assets.xcassets */,
 				5B8154A51E9CA72C00383D4F /* LaunchScreen.storyboard */,
 				5B8154A81E9CA72C00383D4F /* Info.plist */,
+				5B4D26D31E9CAA29002CC512 /* CustomCell.swift */,
 			);
 			path = CreditCalendarApp;
 			sourceTree = "<group>";
@@ -154,6 +160,7 @@
 				5B8154A71E9CA72C00383D4F /* LaunchScreen.storyboard in Resources */,
 				5B8154A41E9CA72C00383D4F /* Assets.xcassets in Resources */,
 				5B8154A21E9CA72C00383D4F /* Main.storyboard in Resources */,
+				5BAEAA4D1E9DA6090080E4D2 /* 123.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B81549F1E9CA72C00383D4F /* ViewController.swift in Sources */,
+				5B4D26D41E9CAA29002CC512 /* CustomCell.swift in Sources */,
 				5B81549D1E9CA72C00383D4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +389,7 @@
 				5B8154AD1E9CA72C00383D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
